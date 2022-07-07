@@ -1,0 +1,58 @@
+/* .node {
+    cursor: pointer;
+    stroke: darkgrey;
+  } */
+  
+.node{
+  /* stroke: #3798ED; */
+  stroke-width: 2px;
+  cursor: pointer;
+}
+
+
+/* .blue {
+  stroke: #3798ED;
+  stroke-width: 1.5px;
+} */
+
+.node--leaf {
+  fill: white;
+  stroke: darkgrey;
+}
+
+
+/* 
+.node--leaf 
+.node--root 
+*/
+.label {
+  pointer-events: none;
+}
+
+div.circlesTooltip { 
+  width: 150px;
+  position: absolute;     
+  text-align: center;          
+  padding-top: 4px;  
+  /* padding-bottom: 15px;       */
+  font: 12px sans-serif;    
+  background: white; 
+  border: 0px;    
+  /* border-radius: 4px;      */
+  pointer-events: none;   
+}
+
+div.innerTooltip {
+  padding: 10px;
+}
+
+div.buttonTooltip {
+  padding: 10px;
+  /* font-weight: bold; */
+  color: white;
+}
+
+div.list {
+  text-align: left;
+  margin-left: 25px;
+}
